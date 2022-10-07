@@ -1,99 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="./view/style/style.css">
-    <title>Acceuil</title>
-</head>
-<body>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
-    <div class="container-xxxl bg-light">
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill"
-                viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                    d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
-                <path fill-rule="evenodd"
-                    d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
-            </svg></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                    
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Services
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Projets
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <button class="btn btn-dark" ><a href="#" class="a text-light">contact us</a></button>
-                </form>
-            </div>
-        </div>
-    </nav>
-<div class="container-xl">
-    <div class="row bg-dark" style="padding: 0.1em;">
-        <div class="col-8 rounded-4 bg-light fs-1 p-5"><strong class="first">Look <br>beyond <br>limits</strong> </div>
-        <div class="col-4 rounded-4 bg-light fs-1 p-5"></div>
-    </div>
-    <div class="row bg-dark" style="padding: 0.1em;">
-    <div class="col rounded-4 bg-light fs-4 p-5">
-        They are very <br>
-        proactive and work to <br>
-        make your product <br>
-        even better.
-    </div>
-    <div class="col rounded-4 bg-light fs-4 p-5">
-        <p>The most experienced, <br>
-            specialised team across <br>
-            the industry. <br></p>
-        <p class="blockquote-footer"><u>Work with us </u> </p>
-        </div>
-        <div class="col rounded-4 bg-light display-1 p-5"><strong class="notre-police">3D</strong>
-        
-        </div>
-    </div>
-    </div>
 
-</div>
+<head>
+  <title>Acceuil</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <link rel="stylesheet" href="./view/style.css">
+  
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="row xxl">
+  <div class="col-3 bg-warning">
+    <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+      <nav class="nav nav-pills flex-column">
+        <a class="nav-link" href="#item-1"> <button class="btn btn-outline btn-info pe-5 ms-5 ps-5"> acceuil</button></a>
+       
+        <a class="nav-link" href="#item-2"><button class="btn btn-outline btn-info pe-5 ms-5 ps-5"> tableau</button></a>
+        <a class="nav-link" href="#item-3"><button class="btn btn-outline btn-info pe-5 ms-5 ps-5"> contact</button></a>
+       
+      </nav>
+    </nav>
+  </div>
+
+  <div class="col-9">
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2"
+      tabindex="0">
+      <div id="item-1" class="justify-content-center " style="margin: 100px 150px;" >
+        
+        <img src="./view/image/artificial-intelligence-g1261b4e01_1920.jpg" alt="image" style="height: 300px; width: 400px;">
+        
+      </div>
+     
+      </div>
+      <div id="item-2" class=" justify-content-center" style="margin-top: 200px;">
+        <h1 class="text-center bg-info">Tableau</h1>
+        <table class="table table-light">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nom</th>
+              <th>Prénom</th>
+              <th>Classe</th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>1</th>
+              <td>Mouandzibi</td>
+              <td>Antoni</td>
+              <td>L2 GlAR</td>
+
+            </tr>
+            <tr>
+              <th>2</th>
+              <td>Diop</td>
+              <td>ndeye Fatou</td>
+              <td>L2 GLAR</td>
+            </tr>
+            <tr>
+              <th>3</th>
+              <td>Diouf</td>
+              <td>Première dame coco</td>
+              <td>L2 GLAR</td>
+            </tr>
+            
+          </tbody>
+        </table>
+       
+      </div>
+      <h1 class="text-center bg-info mt-5">Contact</h1>
+      <div id="item-3" class="contact ">
+        <p > <strong class="me-5"> <b><u>Email:</u></b>  </strong>   antonimouandzibi21@gmail.com</p>
+        <p> <strong class="me-5"><b> <u> Adresse:</u></b>  </strong>   64 Rue OKM</p>
+        <p> <strong class="me-5"> <b><u>Tel:</u></b>  </strong>   88-88-88-88</p>
+      </div>
     </div>
+  </div>
+
 </body>
+
 </html>

@@ -1,0 +1,9 @@
+.section1{
+
+    display: flex;
+    justify-content:space-between;
+
+}
+.col-3{
+    background-color: gray;
+}

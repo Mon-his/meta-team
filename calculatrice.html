@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="calculatrice.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="calculator">
+
+            <div class="screen">
+                <input type="text" name="display" id="display" placeholder="0" value="">
+            </div>
+
+
+            <div class="boutton">
+                <table>
+                    <thead>
+                        <tr>
+                            <th><button id="clears">C</button></th>
+                            <th><button id="divi">/</button></th>
+                            <th><button id="multi">*</button></th>
+                            <th><button id="effacer">Effacer</button></th>
+                        </tr>
+                        <tr>
+                            <th><button id="racine">sqrt</button></th>
+                            <th><button id="loga">log</button></th>
+                            <th><button id="carre">pow</button></th>
+                            <th><button id="moins">-</button></th>
+                        </tr>
+
+
+                        <tr>
+                            <th><button id="sept">7</button></th>
+                            <th><button id="huit">8</button></th>
+                            <th><button id="neuf">9</button></th>
+                            <th><button id="add">+</button></th>
+                        </tr>
+                        <tr>
+                            <th><button id="quatre">4</button></th>
+                            <th><button id="cinq">5 </button></th>
+                            <th><button id="six">6</button></th>
+                            <th><button id="virgule">,</button></th>
+                        </tr>
+                        <tr>
+                            <th><button id="un">1</button></th>
+                            <th><button id="deux">2</button></th>
+                            <th><button id="trois">3</button></th>
+                            <th rowspan="2"><button id="egal">=</th>
+
+                        </tr>
+
+
+                        <tr>
+                            <th><button id="ouvert">(</button></th>
+                            <th><button id="zero">0</button></th>
+                            <th><button id="ferme">)</button></th>
+
+
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+
+        </div>
+    </div>
+    <script src="calculatrice.js"></script>
+</body>
+
+</html>
